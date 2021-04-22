@@ -4,7 +4,7 @@
  * @Author: Linxia GONG 巩琳霞 (linxiagong@gmail.com)
  * @Date: 2020-11-25 11:58:17
  * @LastEditors: Linxia GONG 巩琳霞
- * @LastEditTime: 2020-12-14 17:23:34
+ * @LastEditTime: 2021-04-22 14:34:28
 -->
 # 【WWW'17】EOMM: An Engagement Optimized Matchmaking
 **This is a toy reproduction of the paper**  [*(WWW'17) EOMM: An Engagement Optimized Matchmaking*](http://web.cs.ucla.edu/~yzsun/papers/WWW17Chen_EOMM).
@@ -83,7 +83,7 @@ Limits: it applies to 1-vs-1 matches only.
 
 ## 3. Graph Matching implementation / 关于图匹配算法实现
 
-The graph matching problem is sovled by ***networkx*** (see  [max_weight_matching](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.matching.max_weight_matching.html?highlight=max_weight#networkx.algorithms.matching.max_weight_matching) for more details).
+The graph matching problem is sovled by ***networkx.max_weight_matching*** (go to [max_weight_matching](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.matching.max_weight_matching.html?highlight=max_weight#networkx.algorithms.matching.max_weight_matching) for more details).
 
 - For the ease of graph matching, churn/retain rate values are in percentage (*100%)
 
