@@ -9,6 +9,19 @@
 # 【WWW'17】EOMM: An Engagement Optimized Matchmaking
 **This is a toy reproduction of the paper**  [*(WWW'17) EOMM: An Engagement Optimized Matchmaking*](http://web.cs.ucla.edu/~yzsun/papers/WWW17Chen_EOMM).
 
+<div style="background-color:#FFF3CD; border:1px solid #F0C36D; padding:16px; border-radius:8px; color:#5A4E2B;">
+
+  <h3>⚠️ Disclaimer</h3>
+
+  <p>
+    This project is <strong>for academic purposes only</strong>.  
+    The strategies here use <strong>fake data</strong> and are not related to real-world applications.  
+    I left <strong>NetEase in 2021</strong> and have no involvement in <strong>Marvel Rivals</strong> or any current matchmaking systems.  
+    Contacting me will <strong>not</strong> resolve matchmaking concerns.
+  </p>
+
+</div>
+
 We are research engineers working on game matchmaking optimization domain. The idea of EOMM paper is interesting, so we reproduced the framework and the matchmaking procedure, according to the description in the paper.
 
 本项目是对EOMM论文的复现。
